@@ -15,8 +15,9 @@
   "dependencies": {
     "@clerk/nextjs": "^4.29.3",
     "@headlessui/react": "^1.7.18",
+    "@ibm-cloud/watsonx-ai": "^1.1.2",
     "@langchain/community": "^0.0.50",
-    "@langchain/core": "^0.1.58",
+    "@langchain/core": "^0.1.63",
     "@langchain/mongodb": "^0.0.1",
     "@langchain/pinecone": "^0.0.4",
     "@pinecone-database/pinecone": "^2.0.1",
@@ -25,6 +26,7 @@
     "@react-pdf-viewer/core": "3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "@react-pdf-viewer/page-navigation": "^3.12.0",
+    "@types/styled-components": "^5.1.34",
     "@vercel/postgres": "^0.5.0",
     "ai": "^2.1.28",
     "clsx": "^1.2.1",
@@ -43,6 +45,7 @@
     "react-dom": "^18.2.0",
     "react-markdown": "^8.0.5",
     "react-uploader": "^3.43.0",
+    "styled-components": "^6.1.13",
     "tailwind-merge": "^1.10.0",
     "tailwindcss": "^3.3.3",
     "uploader": "^3.48.3"

@@ -117,7 +117,7 @@ export default function DocumentClient({
           </div>
         </Worker>
         {/* Right hand side */}
-        <div className="flex flex-col w-full justify-between align-center h-[90vh] no-scrollbar">
+        <div className="flex flex-col w-9/12	justify-between align-center h-[90vh] no-scrollbar">
           <div
             className={`w-full min-h-min bg-white border flex justify-center items-center no-scrollbar sm:h-[85vh] h-[80vh]
             `}
@@ -128,7 +128,7 @@ export default function DocumentClient({
             >
               {messages.length === 0 && (
                 <div className="flex justify-center h-full items-center text-xl">
-                  Ask your first question below!
+                  Ask me anything about this poetery!
                 </div>
               )}
               {messages.map((message, index) => {
@@ -136,6 +136,10 @@ export default function DocumentClient({
                 const isLastMessage =
                   !isLoading && index === messages.length - 1;
                 const previousMessages = index !== messages.length - 1;
+
+                // Before rendering the message, clean it by removing triple quotes
+                const cleanMessage = message.content.replace(/"""/g, '');
+
                 return (
                   <div key={`chatMessage-${index}`}>
                     <div
@@ -162,7 +166,7 @@ export default function DocumentClient({
                           priority
                         />
                         <ReactMarkdown linkTarget="_blank" className="prose">
-                          {message.content}
+                          {cleanMessage}
                         </ReactMarkdown>
                       </div>
                       {/* Display the sources */}
