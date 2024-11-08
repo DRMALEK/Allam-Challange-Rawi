@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 const data = [
   {
-    title: "أنشئ حسابًا",
-    description:'ابدأ بإنشاء حساب مجاني',
-    image: '/pen.png',
+    title: "ابدأ المحادثة",
+    description: "اسأل علّام أي سؤال عن قصيدتك",
+    image: '/chat.png',
   },
   {
     title: 'ارفع ملفًا',
@@ -13,10 +13,10 @@ const data = [
     image: '/upload.png',
   },
   {
-    title: "ابدأ المحادثة",
-    description: "اسأل علّام أي سؤال عن قصيدتك",
-    image: '/chat.png',
-  },
+    title: "أنشئ حسابًا",
+    description:'ابدأ بإنشاء حساب مجاني',
+    image: '/pen.png',
+  }
 ];
 
 const HowItWorks = () => {
