@@ -3,18 +3,18 @@ import Link from 'next/link';
 
 const data = [
   {
-    title: 'Sign up',
-    description: 'Start by signing up for a free PDFtoChat account',
+    title: "أنشئ حسابًا",
+    description:'ابدأ بإنشاء حساب مجاني',
     image: '/pen.png',
   },
   {
-    title: 'Upload a PDF',
-    description: 'After login, upload your PDF and let the AI tool analyze it',
+    title: 'ارفع ملفًا',
+    description: 'بعد تسجيل الدخول، ارفع ملفك الشعري ودع علّام يقربك من عالم الشعر',
     image: '/upload.png',
   },
   {
-    title: 'Begin Chatting',
-    description: 'Simply start asking the AI any question about the PDF!',
+    title: "ابدأ المحادثة",
+    description: "اسأل علّام أي سؤال عن قصيدتك",
     image: '/chat.png',
   },
 ];
@@ -26,7 +26,7 @@ const HowItWorks = () => {
       className="xl:max-w-[1700px] xl:mx-auto container pt-9 sm:pt-[77px] pb-[100px] sm:pb-[264px] px-[30px] sm:px-0"
     >
       <h3 className="pb-[66px] sm:pb-[174px] text-center text-3xl sm:text-[60px] text_bg leading-[72px] tracking-[-0.6px] sm:tracking-[-1.2px]">
-        How it Works
+         طريقة الاستخدام 
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-[64px] sm:gap-[112px] md:mx-20">
         {data.map((item, index) => (
@@ -52,7 +52,7 @@ const HowItWorks = () => {
                 className="flex gap-3 sm:gap-[33px] px-6 sm:px-[37px] py-[1px] sm:py-[14px] items-center border rounded-[29px] border-solid border-primary"
               >
                 <span className="text-[17px] sm:text-[30px] leading-[34.5px] tracking-[-0.34px] sm:tracking-[-0.6px]">
-                  Get started
+                  لا تنتظر، ابدأ الآن
                 </span>
                 <Image
                   src="/right-arrow.svg"

@@ -1,3 +1,4 @@
+# All those keys are disabled!, and here of demo purpose only
 export TOGETHER_AI_API_KEY="c6eca728ac361181b7f83bed335bf3c7f352ebea3c67f3132b347cc6c77c4c3e"
 export NEXT_PUBLIC_BYTESCALE_API_KEY="public_12a1zACCXHE8j97gx6Q1rEQZR6Pa"
 

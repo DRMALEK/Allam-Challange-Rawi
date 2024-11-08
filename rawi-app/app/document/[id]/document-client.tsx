@@ -128,7 +128,7 @@ export default function DocumentClient({
             >
               {messages.length === 0 && (
                 <div className="flex justify-center h-full items-center text-xl">
-                  Ask me anything about this poetery!
+                  اسألني أي شيء عن هذه القصيدة!
                 </div>
               )}
               {messages.map((message, index) => {
@@ -193,7 +193,7 @@ export default function DocumentClient({
                                   )
                                 }
                               >
-                                p. {extractSourcePageNumber(source)}
+                                ص. {extractSourcePageNumber(source)}
                               </button>
                             ))}
                         </div>
@@ -222,7 +222,7 @@ export default function DocumentClient({
                 id="userInput"
                 name="userInput"
                 placeholder={
-                  isLoading ? 'Waiting for response...' : 'Ask me anything...'
+                  isLoading ? 'في انتظار الرد...' : 'اسألني أي شيء...'
                 }
               />
               <button

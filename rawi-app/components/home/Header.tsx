@@ -15,7 +15,7 @@ const Header = () => {
             href="/dashboard"
             className="text-white bg_linear py-1.5 px-[22px] text-center text-xl font-normal  border rounded-[18px] border-solid border-primary "
           >
-            Log in
+            تسجيل الدخول
           </Link>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Header = () => {
       {open ? (
         <div className="flex sm:hidden gap-4 items-center py-3 bg-white shadow px-5">
           <button className="text-white bg_linear py-1 px-[22px] text-center text-lg font-normal  border rounded-[18px] border-solid border-primary ">
-          Log in
+          تسجيل الدخول
           </button>
         </div>
       ) : null}

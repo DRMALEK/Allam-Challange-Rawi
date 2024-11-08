@@ -10,7 +10,7 @@ const anek = Anek_Bangla({
 });
 
 let title = 'rawii | رَويّ';
-let description = 'Enjoy the beauty of the Arabic Poetry';
+let description = 'استمتع بجمال الشعر وسحر اللغة العربية';
 let ogimage = 'https://localhost:3000/ogimage.png';
 let url = 'https://localhost:3000';
 let sitename = 'pdftochat.com';

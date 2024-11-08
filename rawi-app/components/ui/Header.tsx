@@ -20,7 +20,7 @@ export default async function Header() {
           <div className="flex items-center gap-5">
             {isLoggedIn ? (
               <>
-                <Link href="/dashboard">Dashboard</Link>
+                <Link href="/dashboard">لوحة التحكم</Link>
                 <UserButton afterSignOutUrl="/" />
               </>
             ) : (

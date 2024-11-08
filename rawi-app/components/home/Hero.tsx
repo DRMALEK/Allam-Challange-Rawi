@@ -7,19 +7,20 @@ const Hero = () => {
         href="https://www.ibm.com/docs/en/SSYOK8/wsj/analyze-data/assets/ALLaM-1-13b-instruct-model-card.pdf"
         target="_blank"
         rel="noreferrer"
-        className="border rounded-2xl py-1 px-4 text-slate-600 transition duration-300 ease-in-out sm:text-base text-sm cursor-pointer hover:text-slate-700"
+        className="border rounded-2xl py-3 px-8 text-slate-600 transition duration-300 ease-in-out sm:text-2xl text-xl cursor-pointer hover:text-slate-700"
       >
-        Powered by <span className="font-bold">Allam Arabic Model</span>
+         <span className="font-bold">مدعوم بنموذج علّام للغة العربية</span>
       </a>
-      <h2 className="text-center max-w-[867px] pb-5 sm:pb-7 text-[52px] sm:text-[100px] leading-[39.5px] tracking-[-1.04px] sm:leading-[75px] sm:tracking-[-2.74px] mx-auto sm:mt-12 mt-10">
-        Chat with your PDFs in seconds
-      </h2>
-      <p className="text-xl sm:text-2xl pb-10 sm:pb-8 leading-[19px] sm:leading-[34.5px] w-[232px] sm:w-full tracking-[-0.4px] sm:tracking-[-0.6px] text-center mx-auto">
-        And Enjoy the beauty of the Arabic poetry
+      <h3 className="text-center max-w-[867px] pb-5 sm:pb-7 text-[30px] sm:text-[50px] leading-[29.5px] tracking-[-0.8px] sm:leading-[55px] sm:tracking-[-1.74px] mx-auto sm:mt-12 mt-10">
+         !تحدث معي، اسألني وناقشني عن القصائد    
+      </h3>
+      <p className="rounded-2xl py-3 px-8 text-slate-600 transition duration-300 ease-in-out sm:text-2xl text-xl cursor-pointer hover:text-slate-700">
+        <span className="font-bold">واستمتع بجمال الشعر وسحر اللغة العربية</span>
       </p>
+      <br></br>
       <Link href={'/dashboard'}>
         <button className="bg_linear rounded-full sm:px-14 px-12 py-[2.5px] sm:py-4 text-white text-center text-xl sm:text-[30px] font-medium leading-[37px] tracking-[-0.3px]">
-          Get Started
+          لا تنتظر، ابدأ الآن
         </button>
       </Link>
     </div>

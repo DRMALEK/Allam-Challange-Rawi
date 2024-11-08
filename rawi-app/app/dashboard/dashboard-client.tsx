@@ -29,6 +29,20 @@ export default function DashboardClient({ docsList }: { docsList: any }) {
         error: '#d23f4d', // Error messages
       },
     },
+    text: {
+      uploadButton: 'رفع ملف', // Upload button text
+      dropzone: {
+        title: 'اسحب الملف هنا',
+        description: 'أو انقر لاختيار ملف',
+      },
+      fileTypeNotAllowed: 'نوع الملف غير مسموح',
+      fileTooLarge: 'الملف كبير جدًا',
+      fileTooSmall: 'الملف صغير جدًا',
+      maxFileCountExceeded: 'تم تجاوز الحد الأقصى لعدد الملفات',
+      uploading: 'جاري الرفع...',
+      complete: 'اكتمل الرفع',
+      error: 'حدث خطأ أثناء الرفع',
+    },
     onValidate: async (file: File): Promise<undefined | string> => {
       return docsList.length > 3
         ? `You've reached your limit for PDFs.`
@@ -73,7 +87,7 @@ export default function DashboardClient({ docsList }: { docsList: any }) {
   return (
     <div className="mx-auto flex flex-col gap-4 container mt-10">
       <h1 className="text-4xl leading-[1.1] tracking-tighter font-medium text-center">
-          Enjoy the beuity of the Arabic poetry 
+        استمتع بجمال الشعر وسحر اللغة العربية 
       </h1>
       {docsList.length > 0 && (
         <div className="flex flex-col gap-4 mx-10 my-5">
@@ -98,11 +112,11 @@ export default function DashboardClient({ docsList }: { docsList: any }) {
       )}
       {docsList.length > 0 ? (
         <h2 className="text-3xl leading-[1.1] tracking-tighter font-medium text-center">
-          Or upload a new PDF
+          ارفع ملف
         </h2>
       ) : (
         <h2 className="text-3xl leading-[1.1] tracking-tighter font-medium text-center mt-5">
-          No PDFs found. Upload a new PDF below!
+         لم يتم العور على ملفات ، قم برفع ملف  جديد أدناه!
         </h2>
       )}
       <div className="mx-auto min-w-[450px] flex justify-center">
