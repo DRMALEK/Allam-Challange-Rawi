@@ -2,6 +2,9 @@
 
 Built proudly using the Allam Larage Language Model. [Read more](https://arxiv.org/pdf/2407.15390). The dataset used is a collection of books for Arabic poems and their explanations by the famous author Aref Hijjawi.
 
+![Rawi Web Application Logo](./logo.png)
+
+
 ## Tech Stack
 
 - [IBM Watsonx](https://www.ibm.com/watsonx) for using Allam Model after being fine tuned
