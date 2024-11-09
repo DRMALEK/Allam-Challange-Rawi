@@ -10,6 +10,8 @@ Built proudly using the Allam Larage Language Model. [Read more](https://arxiv.o
 - rawi-app/ --- Web application code
 - Scripts/ ---  Data preparation scripts
 - BenchMarks.xlsx --- Benchmark file used for testing
+- demo_video.mp4 ---- Video for the demo of our solution
+
 ```
 
 ## Tech Stack
