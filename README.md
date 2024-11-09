@@ -80,7 +80,23 @@ To set up a [MongoDB Atlas](https://www.mongodb.com/atlas/database) database as 
 5. Make sure that the schema is pushed to PostgreSQL 16.4 using `npx prisma db push`.
 6. Navigate to the main folder, and run `npm run dev`.
 
-## Notes
+## Repository Structure
+
+```plaintext
+- rawi-app/
+  - public/
+    - logo.png
+  - src/
+    - components/
+    - pages/
+    - styles/
+  - .env.example
+  - .gitignore
+  - README.md
+  - package.json
+- Scripts/
+  - data_preparation.py
+- BenchMarks.xlsx
 
 ## Authors
 @Abdullah-Sukkar, @DRMALEK
