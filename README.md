@@ -11,7 +11,7 @@ Built proudly using the Allam Larage Language Model. [Read more](https://arxiv.o
 - Scripts/ ---  Data preparation scripts
 - BenchMarks.xlsx --- Benchmark file used for testing
 - demo_video.mp4 ---- Video for the demo of our solution
-
+- Rawii.pptx --- Slides about the solution (please open it via google slides!)
 ```
 
 ## Tech Stack
