@@ -83,20 +83,9 @@ To set up a [MongoDB Atlas](https://www.mongodb.com/atlas/database) database as 
 ## Repository Structure
 
 ```plaintext
-- rawi-app/
-  - public/
-    - logo.png
-  - src/
-    - components/
-    - pages/
-    - styles/
-  - .env.example
-  - .gitignore
-  - README.md
-  - package.json
-- Scripts/
-  - data_preparation.py
-- BenchMarks.xlsx
+- rawi-app/ --- Web application 
+- Scripts/ ---  Data preparation scripts
+- BenchMarks.xlsx```Benchmark file
 
 ## Authors
 @Abdullah-Sukkar, @DRMALEK
