@@ -4,6 +4,13 @@ Built proudly using the Allam Larage Language Model. [Read more](https://arxiv.o
 
 ![Rawi Web Application Logo](./logo.png)
 
+## Repository Structure
+
+```plaintext
+- rawi-app/ --- Web application 
+- Scripts/ ---  Data preparation scripts
+- BenchMarks.xlsx --- Benchmark file
+```
 
 ## Tech Stack
 
@@ -79,13 +86,6 @@ To set up a [MongoDB Atlas](https://www.mongodb.com/atlas/database) database as 
 4. Ensure PostgreSQL is installed.
 5. Make sure that the schema is pushed to PostgreSQL 16.4 using `npx prisma db push`.
 6. Navigate to the main folder, and run `npm run dev`.
-
-## Repository Structure
-
-```plaintext
-- rawi-app/ --- Web application 
-- Scripts/ ---  Data preparation scripts
-- BenchMarks.xlsx```Benchmark file
 
 ## Authors
 @Abdullah-Sukkar, @DRMALEK
