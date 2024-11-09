@@ -62,7 +62,7 @@ export async function POST(request: Request) {
 
     /* create and store the embeddings in the vectorStore */
     const embeddings = new OpenAIEmbeddings({
-      openAIApiKey: process.env.OPENAI_API_KEY, // Make sure this env var is set
+      openAIApiKey: process.env.EMBEDDINGS_API_KEY, // Make sure this env var is set
       modelName: 'text-embedding-3-small'
     });
 

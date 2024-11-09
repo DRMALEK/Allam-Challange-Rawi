@@ -12,7 +12,7 @@ class CustomChatModel {
   constructor(apiKey: string) {
     console.log('Initializing CustomChatModel');
     this.apiKey = apiKey;
-    this.url = "https://ai.deem.sa/ml/v1/deployments/rawi1/text/generation?version=2021-05-01";
+    this.url = "https://ai.deem.sa/ml/v1/deployments/final/text/generation?version=2021-05-01";
   }
 
   async call(messages: any[]) {
