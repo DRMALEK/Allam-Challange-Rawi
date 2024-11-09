@@ -1,6 +1,6 @@
 # All those keys are disabled!, and here of demo purpose only
-export TOGETHER_AI_API_KEY="c6eca728ac361181b7f83bed335bf3c7f352ebea3c67f3132b347cc6c77c4c3e"
-export NEXT_PUBLIC_BYTESCALE_API_KEY="public_12a1zACCXHE8j97gx6Q1rEQZR6Pa"
+export TOGETHER_AI_API_KEY=""
+export NEXT_PUBLIC_BYTESCALE_API_KEY=""
 
 # The vector store you'd like to use.
 # Can be one of "pinecone" or "mongodb"
@@ -8,28 +8,24 @@ export NEXT_PUBLIC_BYTESCALE_API_KEY="public_12a1zACCXHE8j97gx6Q1rEQZR6Pa"
 #export NEXT_PUBLIC_VECTORSTORE="pinecone"
 export NEXT_PUBLIC_VECTORSTORE="mongodb"
 
-export EMBEDDINGS_API_KEY="sk-TyPlEZwMpfCewSVXcByGYYrSn8JOg0qOkRn9PhBszIT3BlbkFJo1g1Ee5XFmYH9TOo6ERXmeeLLZHlHxk_yd0vSu57AA"
+export EMBEDDINGS_API_KEY=""
 
-#export PINECONE_API_KEY="673868f2-dc5f-4c51-b507-6d55f24abd1a"
+#export PINECONE_API_KEY=""
 #export PINECONE_INDEX_NAME="rawi"
-export MONGODB_ATLAS_URI="mongodb+srv://malek:EGkahL6Z7bDLPILA@rawi.2uvko.mongodb.net/?retryWrites=true&w=majority&appName=Rawi"
+export MONGODB_ATLAS_URI=""
 export MONGODB_ATLAS_DB_NAME="sample_mflix"
 export MONGODB_ATLAS_COLLECTION_NAME="rawi"
 export MONGODB_ATLAS_INDEX_NAME="vector_index"
 
-export CLERK_SECRET_KEY="sk_test_SfUwNLkRZ6Idua0ZeCpka5sW3okqGBdaKB6BU1H9QN"
-export NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_Z3Jvd2luZy1zbmFwcGVyLTY5LmNsZXJrLmFjY291bnRzLmRldiQ"
+export CLERK_SECRET_KEY=""
+export NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
 export NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 export NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-export POSTGRES_URL="postgresql://malek:malekrehan123@localhost:5432/malek2"
-export POSTGRES_URL_NON_POOLING="postgresql://malek:malekrehan123@localhost:5432/malek2"
-export POSTGRES_PRISMA_URL="postgresql://malek:malekrehan123@localhost:5432/malek2"
-
-
+export POSTGRES_URL=""
+export POSTGRES_URL_NON_POOLING=""
+export POSTGRES_PRISMA_URL=""
 
 export WATSONX_AI_AUTH_TYPE="iam"
-export WATSONX_AI_APIKEY="0newnC68i4NSE0zQiuOl5HhJNnaJvybXAlmwAFf1"
-export WATSONX_AI_ACCESS_TOKEN="eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Im5WZTRrVnZkc25JUUdrOWs0YzFRMlhrNjBmekhKSW1GUW5NWUJjN3A4ZkkifQ.eyJ1aWQiOiIxMDAwMzMxMDg1IiwidXNlcm5hbWUiOiJlN2E4MDZhNi1jODFkLTQzYWEtODZkMC01Y2YzOGNkZmUzMzEiLCJyb2xlIjoiVXNlciIsInBlcm1pc3Npb25zIjpbInNpZ25faW5fb25seSJdLCJncm91cHMiOlsxMDAzNywxMDAwMF0sInN1YiI6ImU3YTgwNmE2LWM4MWQtNDNhYS04NmQwLTVjZjM4Y2RmZTMzMSIsImlzcyI6IktOT1hTU08iLCJhdWQiOiJEU1giLCJhcGlfcmVxdWVzdCI6dHJ1ZSwiaWF0IjoxNzMxMTI3OTYwLCJleHAiOjUzMzExMjQzNjB9.qzbfYLpTSx4df150gZLdUf5Tj1aNckrSvON0VoU7RHFBgYz5IfDOn2JwX4TqaIS9zP_n-kKVlrARORH-X5oUFJtHKchSjfQmGN1y9nb_mnJ7-2cdNHPbWaVm-FYTEJEpJ7kECM_BWotpXRS2-1-7sfRci_efeEOOAPLGnUPwFk3Xr4BY_HqQt34J7viX_PEVTgdRogjnD-FK4s3UGV7WzoN3hN-EhYTBZPy7QmKGbRL1QBOw6xYJcR33lN00IJ--Y21spHujiTIt9_bcH_LpkBxXhyyMtrxzmUTljAccrmfQsusKIQFw6NSB6SFSnkz4Yazuudib6gmDLYFQMz04Ew"
-
-
+export WATSONX_AI_APIKEY=""
+export WATSONX_AI_ACCESS_TOKEN=""
