@@ -7,9 +7,9 @@ Built proudly using the Allam Larage Language Model. [Read more](https://arxiv.o
 ## Repository Structure
 
 ```plaintext
-- rawi-app/ --- Web application 
+- rawi-app/ --- Web application code
 - Scripts/ ---  Data preparation scripts
-- BenchMarks.xlsx --- Benchmark file
+- BenchMarks.xlsx --- Benchmark file used for testing
 ```
 
 ## Tech Stack
